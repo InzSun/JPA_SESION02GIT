@@ -24,7 +24,7 @@ public class Prueba {
 		
 		TbUsuario u = (TbUsuario)query.getSingleResult();
 		if(u!=null){
-			System.out.println("Bienvenido: "+u.getNomUsua());
+			System.out.println("Bienvenido: "+u.getNomUsua()+" "+u.getApeUsua());
 		}else{
 			System.out.println("El usuario no existe");
 		}
