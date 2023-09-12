@@ -28,7 +28,6 @@ public class Prueba {
 		}else{
 			System.out.println("El usuario no existe");
 		}
-		//Vista
 		//List<TbProducto> lstpro = pro.createQuery("Select p From TbProducto p", TbProducto.class).getResultList();
 		//System.out.println("Nro de Productos:´"+lstUsuarios.size());
 		
